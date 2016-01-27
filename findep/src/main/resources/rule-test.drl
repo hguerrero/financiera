@@ -1,0 +1,9 @@
+package mx.redhat.findep.credito;
+import mx.redhat.findep.credito.web.model.Solicitud;
+
+rule "Autorization Rules_11"
+	ruleflow-group "test-flow"
+	when
+	then
+		System.out.println('Analista JR');
+end
