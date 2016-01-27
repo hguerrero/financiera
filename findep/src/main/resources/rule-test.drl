@@ -5,7 +5,8 @@ import mx.redhat.findep.credito.web.model.Solicitud;
 rule "test rule"
 	ruleflow-group "test-flow"
 	when
-		Solicitud()
+		$solicitud : Solicitud()
 	then
 		System.out.println('Analista JR');
+		retract($solicitud);
 end
