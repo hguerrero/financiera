@@ -6,6 +6,13 @@
   <artifactId>process-model</artifactId>
   <version>1.0</version>
   <name>findep</name>
+  <dependencies>
+    <dependency>
+      <groupId>mx.redhat.findep</groupId>
+      <artifactId>credito-model</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
