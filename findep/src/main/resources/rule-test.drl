@@ -5,6 +5,7 @@ import mx.redhat.findep.credito.web.model.Solicitud;
 rule "test rule"
 	ruleflow-group "test-flow"
 	when
+		Soliciutd()
 	then
 		System.out.println('Analista JR');
 end
