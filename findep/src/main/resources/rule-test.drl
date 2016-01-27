@@ -8,5 +8,6 @@ rule "test rule"
 		$solicitud : Solicitud()
 	then
 		System.out.println('Analista JR');
+		$solicitud.setResultado('Analista JR');
 		retract($solicitud);
 end
